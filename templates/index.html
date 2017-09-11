@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>
 		Story Board Game
 	</title>
@@ -9,9 +10,10 @@
 	<h1>The Dragon's Mealtime</h1>
 	<p>The dragon has a choice to eat one of the following two. Depending on the choice, he will either die or get more and more powerful.</p>
 	<form action="/firstchoice" method="post">
-		<input type="radio" name="choice">Children</input>
-		<input type="radio" name="choice">Vegetables</input>
-		<input type="submit" name="submit">
+		<button name="choice">Children</button>
+	</form>
+	<form action="/death" method="post">
+		<button name="choice2">Vegetables</button>
 	</form>
 </body>
 </html>
